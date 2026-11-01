@@ -1,0 +1,9 @@
+# virtualenvs
+.venv/
+.venv-blender/
+__pycache__/
+
+# generated outputs and extracted artwork (rebuilt from the dieline PDFs)
+out/
+art_*/
+dielines/
