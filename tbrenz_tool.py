@@ -108,6 +108,54 @@ PRODUCTS = {
         "emboss_mode": "colour_or_dark",
         "art": "art_marwin",
     },
+    # Mariofen-SP: 122 x 72 x 77 mm carton (length x width x height). Front and back are 122 x 77,
+    # the two side panels are 72 x 77, and the top flap is 122 x 72.
+    "mariofen-sp": {
+        "boxes": {
+            "front":  (15.7, 425.3, 360.6, 643.3),
+            "back":   (564.8, 425.3, 911.2, 643.3),
+            "side":   (360.6, 425.3, 564.8, 643.3),
+            "glue":   (911.2, 425.3, 1114.7, 643.3),
+            "top":    (15.7, 222.5, 360.6, 424.2),
+            "bottom": (15.7, 222.5, 360.6, 424.2),
+        },
+        "dims": (122.0, 77.0, 72.0),
+        "emboss_box": (0.31, 0.42, 0.65, 0.66),
+        "emboss_mode": "colour_or_dark",
+        "art": "art_mariofen-sp",
+    },
+    # Mariofen-P: 70 x 83 x 52 mm carton (length x height x depth, from the dieline). Front and back
+    # are 70 x 83, the side and glue panels are 52 x 83, the top flap is 70 x 52. Bottom has no print.
+    "mariofen-p": {
+        "boxes": {
+            "front":  (14.4, 225.8, 212.7, 461.5),
+            "back":   (360.0, 225.8, 558.3, 461.5),
+            "side":   (212.7, 225.8, 360.0, 461.5),
+            "glue":   (558.3, 225.8, 705.6, 461.5),
+            "top":    (14.4, 78.5, 212.7, 225.8),
+            "bottom": (14.4, 78.5, 212.7, 225.8),
+        },
+        "dims": (70.0, 83.0, 52.0),
+        "emboss_box": (0.22, 0.46, 0.77, 0.58),
+        "emboss_mode": "colour_or_dark",
+        "art": "art_mariofen-p",
+    },
+    # Rabesoph-DSR: 122 x 72 x 77 mm carton (length x width x height), same sheet layout as Mariofen-SP.
+    # The bottom has no print and is left white.
+    "rabesoph-dsr": {
+        "boxes": {
+            "front":  (0.0, 395.4, 345.6, 612.9),
+            "back":   (549.8, 395.4, 895.3, 612.9),
+            "side":   (345.6, 395.4, 549.8, 612.9),
+            "glue":   (895.3, 395.4, 1099.6, 612.9),
+            "top":    (0.0, 191.1, 345.6, 392.7),
+            "bottom": (0.0, 191.1, 345.6, 392.7),
+        },
+        "dims": (122.0, 77.0, 72.0),
+        "emboss_box": (0.275, 0.393, 0.729, 0.559),
+        "emboss_mode": "colour_or_dark",
+        "art": "art_rabesoph-dsr",
+    },
 }
 
 
